@@ -6,3 +6,13 @@
 h1{
   color: blue;
 }
+li{
+  /* search for color picker on google */
+  color: rgb(232, 108, 14);
+}
+p{
+  color: #07e892;
+}
+h4{
+  color: rgba(232, 108, 14,0.6)
+}
