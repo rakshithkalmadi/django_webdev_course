@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hotel Feedback</title>
+  </head>
+  <body>
+    <h1>Hotel Feedback Form</h1>
+    <form method="get">
+      <h3>Are you from inside the us or iutside the us?</h3>
+      <label for="inus">Inside: </label>
+      <input id="inus"type="radio" name="loc" value="inside">
+      <label for="outusa">Outside :</label>
+      <input id="outusa"type="radio" name="loc" value="outside">
+      <h3>How was out service?</h3>
+      <select name="stars">
+        <option value="3">Great</option>
+        <option value="2">Good</option>
+        <option value="1">Bad</option>
+
+      </select>
+      <p>Any other feedback to give ?</p>
+      <input type="text" name="otherfeedback" value="Feedback">
+      <!-- Or you can use text area-->
+      <textarea name="mytext" rows="8" cols="80"></textarea>
+      <input type="submit" name="" value="Submit">
+    </form>
+  </body>
+</html>
