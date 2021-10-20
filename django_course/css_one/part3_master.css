@@ -1,0 +1,45 @@
+/* div{
+  color: red;
+} */
+
+/* if you want to have a particular color for div then name those classes,
+and you can use the classes by using the "." ate the beginning of the classname/ */
+.firstdiv{
+  color: blue;
+}
+.seconddiv{
+  color: red;
+}
+/* # this symbol is for ids */
+#singledout{
+
+  color: green;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* The below is used to select all in the html file
+*{
+  color: black;
+} */
+
+/* The below example shows to select all the ul below or near h3 */
+h3 + ul{
+  border: 4px dotted purple;
+}
+
+
+/* Color for the anchor tag */
+li a{
+  color: red;
+}
+
+
+li a[href="www.google.com"]{
+  color: blue;
+  border: 5px solid orange;
+}
+
+a:visited{
+  color: red
+}

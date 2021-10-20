@@ -1,0 +1,15 @@
+h1{
+  font-family: "Arial";
+  color: blue;
+}
+
+p{
+  font-style: italic;
+  font-family: monospace;
+  font-weight: bold;
+  text-align: center;
+}
+
+body{
+  font-size: 15px;
+}

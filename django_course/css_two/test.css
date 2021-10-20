@@ -1,0 +1,37 @@
+h2{
+  color: red;
+  font-style: italic;
+  text-align: center;
+font-family: 'Seaweed Script', cursive;
+}
+
+.art{
+  margin: auto;
+}
+
+td{
+  height: 300px;
+  width: 150px;
+  border: 3px solid white;
+}
+
+#one{
+  background-color: rgb(38, 70, 83);
+
+}
+#two{
+  background-color: rgb(42, 157, 143);
+
+}
+#three{
+  background-color: rgb(233, 196, 106);
+
+}
+#four{
+  background-color: rgb(244, 162, 97);
+
+}
+#five{
+  background-color: rgb(231, 111, 81);
+
+}
